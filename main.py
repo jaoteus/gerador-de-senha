@@ -44,4 +44,7 @@ except ValueError:
     print("Digite apenas números")
 
 # Output / Saída de dados
-print(f"A senha gerada foi: {senha_gerada}")
+if senha_gerada == "":
+    print("Nenhuma senha foi gerada!")
+else:
+    print(f"A senha gerada foi: {senha_gerada}")
